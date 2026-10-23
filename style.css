@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.conatiner {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item-1 {
+    background-image: url("./uzbekistan-flag\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 200px;
+}
+
+.item h1 {
+    font-size: 64px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.item p {
+    font-size: 24px;
+    width: 600px;
+    font-weight: bold;
+}
+
+.item-2 {
+    background-image: url("./ital.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 200px;
+}
+
+.item-3 {
+    background-image: url("./buyuk-britaniya-haqida-qiziqarli-ma-lumotlar_1575111880-b.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 200px;
+}
+
+.item-3 h1 {
+    font-size: 64px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.item-3 p {
+    font-size: 24px;
+    width: 600px;
+    font-weight: bold;
+    color: white;
+}
+
+.owl-dots {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative !important;
+    top: -180px;
+    left: 0px !important;
+    text-align: left !important;
+}
+
+.owl-dot span {
+    transform: scale(1.6);
+    background-color: whitesmoke !important;
+    transition: 0.3s;
+}
+
+.active span {
+    transform: scale(2);
+    background-color: orange !important;
+    border: 2px solid orange;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    background-color: lavenderblush;
+    padding: 40px;
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
